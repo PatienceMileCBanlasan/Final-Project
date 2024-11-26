@@ -1,0 +1,144 @@
+body{
+  background-color: white;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style the image */
+.image-container img {
+  display: block;
+  width: 200%;
+  height: 400px;
+}
+
+/* Style the overlay-text */
+.overlay-text {
+  position: absolute;
+  top: 50%; /* Adjust this value to vertically center the text */
+  left: 90%; /* Adjust this value to horizontally center the text */
+  transform: translate(-50%, -50%); /* Center the text precisely */
+  color: #fff; /* Set the text color */
+  font-size: 50px; /* Adjust the font size */
+  text-shadow: 10px 10px 10px black;
+  text-align: justify;
+  line-height:45px;
+}
+.overlay-text2 {
+  position: absolute;
+  top: 50%; /* Adjust this value to vertically center the text */
+  left: 125%; /* Adjust this value to horizontally center the text */
+  transform: translate(-50%, -50%); /* Center the text precisely */
+  color: #fff; /* Set the text color */
+  font-size: 50px; /* Adjust the font size */
+  text-shadow: 10px 10px 10px black;
+  text-align: justify;
+  line-height:45px;
+}
+.descrip {
+  position: absolute;
+  top:63%;
+  left:5%;
+  display: block;
+  width:250px;
+  height:250px;
+  background-color: lightgrey;
+  box-shadow:2px 2px 10px black;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  
+}
+#des {
+  position: absolute;
+  top: 75%;
+  left: 22%;
+  text-align: center;
+}
+a {
+  text-decoration:none;
+  color:black;
+}
+a:hover {
+  color: white;
+} 
+
+.statimg {
+  position: absolute;
+  top:63%;
+  left: 22%;
+  display: block;
+  width:250px;
+  height:250px;
+  background-color: lightgrey;
+  box-shadow:2px 2px 10px black;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+#stat {
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  text-align: center;
+}
+.experiences {
+  position: absolute;
+  top:63%;
+  left:39%;
+  display: block;
+  width:250px;
+  height:250px;
+  background-color: lightgrey;
+  box-shadow:2px 2px 10px black;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+#exp {
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  text-align: center;
+}
+.solution {
+  position: absolute;
+  top:63%;
+  left:56%;
+  display: block;
+  width:250px;
+  height:250px;
+  background-color: lightgrey;
+  box-shadow:2px 2px 10px black;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+#sol {
+  position: absolute;
+  top: 75%;
+  left: 28%;
+  text-align: center;
+}
+
+.descrip:hover, .descrip:focus {
+  background-color: darkgrey;
+  transform: scale(1.2,1.2);
+}
+
+.statimg:hover, .statimg:focus {
+  background-color: darkgrey;
+  transform: scale(1.2,1.2);
+}
+
+.experiences:hover, .experiences:focus {
+  background-color: darkgrey;
+  transform: scale(1.2,1.2);
+}
+
+.solution:hover, .solution:focus {
+  background-color: darkgrey;
+  transform: scale(1.2,1.2);
+}
