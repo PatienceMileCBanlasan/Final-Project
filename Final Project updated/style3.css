@@ -1,0 +1,12 @@
+header {
+  background-color: #497af1;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  height: 100px;
+  padding: 10px, 10px;
+  border: 10px, 10px;
+}
+#prev:hover {
+  background: url('images/back2.jpg');
+}
